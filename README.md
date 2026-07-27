@@ -160,9 +160,18 @@ long sum = seg.q(l, r);
 long ans = Mod.mul(x, y);
 ```
 
-Bit Utility Methods
-•	getBit(n,k) – Returns the k-th bit (0-indexed).
-•	setBit(n,k) – Sets the k-th bit.
-•	clearBit(n,k) – Clears the k-th bit.
-•	toggleBit(n,k) – Flips the k-th bit.
-•	isPowerOf2(n) – Returns true if n is a power of two.
+---
+
+## `Bit` — Bit Manipulation Utilities
+
+**Purpose:** Perform common bitwise operations used in competitive programming.
+
+| Function | Purpose |
+|----------|---------|
+| `getBit(n,k)` | Return the value of the k-th bit |
+| `setBit(n,k)` | Set the k-th bit to `1` |
+| `clearBit(n,k)` | Clear the k-th bit to `0` |
+| `toggleBit(n,k)` | Flip the value of the k-th bit |
+| `isPowerOf2(n)` | Check whether a number is a power of `2` |
+
+---
